@@ -21,8 +21,8 @@ export default function Page() {
           </ClerkLoading>
         </div>
       </div>
-      <div className="h-full bg-[#ECF7FD] hidden lg:flex items-center justify-center">
-        <Image src="/logo.png" width={400} height={400} alt="Logo"  className="border-2 border-[#243241] rounded-2xl" />
+      <div className="h-full bg-blue-500 hidden lg:flex items-center justify-center">
+        <Image src="/logo.jpg" width={400} height={400} alt="Logo"  className="border-2 border-white rounded-lg" />
       </div>
     </div>
   );
