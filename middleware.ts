@@ -4,6 +4,7 @@ import { NextResponse } from 'next/server';
 const isNotProtected = createRouteMatcher([
   '/sign-in(.*)',
   '/sign-up(.*)',
+  '/api(.*)',
 ]);
 
 export default clerkMiddleware((auth, req) => {
