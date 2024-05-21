@@ -49,7 +49,7 @@ export const AccountForm = ({
     }   
     return (
         <Form {...form}>
-            <form onSubmit={form.handleSubmit(handleSubmit)} className="spacy-y-4 pt-4">
+            <form onSubmit={form.handleSubmit(handleSubmit)} className="spacy-y-4 pt-4 flex flex-col gap-4">
                 <FormField 
                     name="name"
                     control={form.control}
@@ -63,6 +63,7 @@ export const AccountForm = ({
                                     {...field}
                                     placeholder="e.g. Cash, Bank, Credit Card"
                                     disabled={disabled}
+                                    autoComplete="on"
                                 />
                             </FormControl>
                         </FormItem>
