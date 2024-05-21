@@ -18,7 +18,15 @@
       }
     ],
     "paths": {
-      "@/*": ["./*"]
+      "@/*": ["./*"],
+      "@/features/*": ["./features/*"],
+      "@/components/*": ["./components/*"],
+      "@/lib/*": ["./lib/*"],
+      "@/db/*": ["./db/*"],
+      "@/app/*": ["./app/*"],
+      "@/providers/*": ["./providers/*"],
+      "@/scripts/*": ["./scripts/*"],
+      "@/drizzle/*": ["./drizzle/*"],
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
